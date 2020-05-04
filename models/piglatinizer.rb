@@ -15,4 +15,9 @@ def to_pig_latin(phrase)
   word_array = phrase.split(" ")
   @piglatinized_phrase = word_array.collect {|word| piglatinize(word)}.join(" ")
 end
+
+def to_pig_latin(phrase)
+    words = @phrase.split	    phrase.split.collect {|word| piglatinize(word)}.join(' ')
+    new_string = words.map do |word|	
+  end 
 end #class end
