@@ -16,8 +16,6 @@ def to_pig_latin(phrase)
   @piglatinized_phrase = word_array.collect {|word| piglatinize(word)}.join(" ")
 end
 
- def to_pig_latin(sentence)
-    sentence.split.collect { |word| piglatinize(word) }.join(" ")
-  end
+ 
 
 end #class end
