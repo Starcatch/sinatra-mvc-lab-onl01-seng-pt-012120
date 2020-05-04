@@ -20,4 +20,5 @@ def to_pig_latin(phrase)
     words = @phrase.split	    phrase.split.collect {|word| piglatinize(word)}.join(' ')
     new_string = words.map do |word|	
   end 
+ end 
 end #class end
